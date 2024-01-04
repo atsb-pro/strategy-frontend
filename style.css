@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  border-radius: 5px;
+  margin-left: 135px;
+}
+
+.result {
+  white-space: pre;
+}
+
+.row {
+  display: flex;
+}
+
+.row>div,
+.row>input {
+  flex: 1;
+  margin: 15px 0;
+}
+
+.row>input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.form {
+  width: 400px;
+  border: 1px solid #919191;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.card {
+  margin: 20px 0px;
+  width: 400px;
+  border: 1px solid #919191;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.card-header {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profit {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer {
+  color: #777;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 5px;
+}
+
+.card-footer>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-footer>div>div:first-child {
+  font-size: 0.8em;
+}
+
+.card-footer>div>div:nth-child(2) {
+  font-size: 1.1em;
+}

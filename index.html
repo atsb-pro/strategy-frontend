@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Parcel Sandbox</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="form">
+    <div class="row">
+      <div class="parameter">
+        Ticker:
+      </div>
+      <input class="ticker" />
+    </div>
+    <div class="row">
+      <div class="parameter">
+        Moving average 1:
+      </div>
+      <input class="ma1" />
+    </div>
+    <div class="row">
+      <div class="parameter">
+        Moving average 2:
+      </div>
+      <input class="ma2" />
+    </div>
+    <div class="row">
+      <div class="parameter">
+        Starting balance:
+      </div>
+      <input class="starting-balance" />
+    </div>
+    <div class="row">
+      <div class="parameter">
+        Starting # of shares:
+      </div>
+      <input class="starting-shares" />
+    </div>
+    <div class="row">
+      <div class="parameter">
+        Time period:
+      </div>
+      <input class="period" type="number" />
+    </div>
+  </div>
+  <button onclick="runStrategy()">Run strategy</button>
+  <div class="results">
+    <div class="card">
+      <div class="card-header">
+        <div class="date">
+          2023-11-17
+        </div>
+        <div class="profit" title="Profit">
+          $1576
+        </div>
+      </div>
+      <div class="score">
+        Score -
+      </div>
+      <div class="transaction">
+        <div class="title">
+          Bought
+        </div>
+        <div class="stock-number">
+          24
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="stock-price">
+          <div>stock price</div>
+          <div>$97.8</div>
+        </div>
+        <div class="shares">
+          <div># of shares</div>
+          <div>143</div>
+        </div>
+        <div class="current-balance">
+          <div>balance</div>
+          <div>$3054</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
